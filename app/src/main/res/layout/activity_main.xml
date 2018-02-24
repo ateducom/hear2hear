@@ -4,19 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/bg"
     tools:context="com.example.afraaaldhaheri.ateducom.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:background="@color/white"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="@color/white"
             android:padding="10dip">
 
 
@@ -65,20 +64,25 @@
                 android:id="@+id/review"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
                 android:layout_marginTop="10dip"
-                android:background="@color/bg_login"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_round"
                 android:baselineAligned="false"
-                android:text="@string/review" />
+                android:text="@string/review"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/addnote"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dip"
-                android:textColor="@color/white"
-                android:background="@color/bg_login"
-                android:text="@string/addnote" />
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_round"
+                android:text="@string/addnote"
+                android:textColor="@color/white" />
 
 
         </LinearLayout>
