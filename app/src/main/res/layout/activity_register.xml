@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.afraaaldhaheri.ateducom.register">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff" >
+
+        <!-- Registration Form -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+
+            android:padding="10dip">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="103dp"
+                android:layout_marginStart="10dip"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/logo" />
+
+            <!--  phone Label -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/email"
+                android:labelFor="@+id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <!-- Password Label -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/reg_password"
+                android:labelFor="@+id/reg_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:inputType="textPassword" />
+
+
+
+            <!-- Register Button -->
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:textColor="@color/white"
+                android:background="@color/bg_login"
+                android:text="@string/btn_register" />
+
+
+            <!-- Link to Login Screen -->
+            <Button
+                android:id="@+id/link_to_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dip"
+                android:layout_marginTop="20dip"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/btn_link_to_register"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

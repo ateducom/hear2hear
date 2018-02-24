@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.afraaaldhaheri.ateducom.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="10dip">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="103dp"
+                android:layout_marginStart="10dip"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dip"
+                android:text="@string/coursename"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/coursename"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:labelFor="@+id/coursename"
+                android:singleLine="true" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/instructure"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/instructure"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:inputType="text"
+                android:labelFor="@+id/instructure"
+                android:singleLine="true" />
+
+
+            <Button
+                android:id="@+id/review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dip"
+                android:background="@color/bg_login"
+                android:baselineAligned="false"
+                android:text="@string/review" />
+
+            <Button
+                android:id="@+id/addnote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/white"
+                android:background="@color/bg_login"
+                android:text="@string/addnote" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

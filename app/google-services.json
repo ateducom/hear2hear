@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1035719547700",
+    "firebase_url": "https://heretohear-4d5be.firebaseio.com",
+    "project_id": "heretohear-4d5be",
+    "storage_bucket": "heretohear-4d5be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035719547700:android:7142c392e619491e",
+        "android_client_info": {
+          "package_name": "com.example.afraaaldhaheri.ateducom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035719547700-rsldn7j979lut5p6f45l0q6lkss905md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.afraaaldhaheri.ateducom",
+            "certificate_hash": "0e3fd1faa3e5ca85d7685d0f7835d3a49bb2c1db"
+          }
+        },
+        {
+          "client_id": "1035719547700-4gu1bnfo6uki9j7k6trrlji3pu1qpkvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGjndO5zjZw5tdcTnRsmr0xmt2kAVVnSI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035719547700-4gu1bnfo6uki9j7k6trrlji3pu1qpkvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
