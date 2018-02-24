@@ -21,12 +21,18 @@
     <string name="splash">splash</string>
     <string name="title_activity_homepage">homepage</string>
 
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="mic">mic</string>
+    <string name="sp2txt">speech to text</string>
 
     <string name="action_settings">Settings</string>
     <string name="review">review note</string>
     <string name="addnote">add note</string>
+    <string name="speech_to_text">speech to text</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
 
 
 </resources>

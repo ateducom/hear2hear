@@ -1,5 +1,6 @@
 package com.example.afraaaldhaheri.ateducom;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -15,7 +16,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class loginpage extends AppCompatActivity {
+public class loginpage extends Activity {
 
     private EditText emailedittext;
     private EditText passedittext;
@@ -41,7 +42,6 @@ public class loginpage extends AppCompatActivity {
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-
 
                 if(firebaseAuth.getCurrentUser() != null){
 
@@ -71,7 +71,6 @@ public class loginpage extends AppCompatActivity {
 
             }
         });
-
 
     }
 

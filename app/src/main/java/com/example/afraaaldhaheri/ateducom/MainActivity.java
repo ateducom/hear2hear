@@ -27,9 +27,33 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, notepage.class);
+                intent.putExtra("instructure name:", instructurename.getText().toString());
+                intent.putExtra( "course name:", coursename.getText().toString() );
                 startActivity(intent);
             }
         } );
+
+        addnote.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, recordpage.class);
+                startActivity(intent);
+            }
+        } );
+
+/*
+ btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(prevactivity.this, homepage.class);
+                intent.putExtra("greenhouse_name",txt.getText().toString());
+               startActivity(intent);
+ */
+
+
+/*
+tb.setText(getIntent().getExtras().getString("greenhouse_name"));
+ */
     }
 
 

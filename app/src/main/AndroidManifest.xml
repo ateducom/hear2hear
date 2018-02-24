@@ -29,7 +29,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".splashpage" />
-        <activity android:name=".notepage"></activity>
+        <activity android:name=".notepage" />
+        <activity android:name=".recordpage"></activity>
     </application>
 
 </manifest>
