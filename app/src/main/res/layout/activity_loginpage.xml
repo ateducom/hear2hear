@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@color/white"
     tools:context="com.example.afraaaldhaheri.ateducom.loginpage">
 
 
@@ -59,10 +59,12 @@
 
         <Button
             android:id="@+id/btnLogin"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
-            android:background="@color/bg_login"
+            android:layout_gravity="center"
+            android:paddingHorizontal="65dp"
+            android:background="@drawable/btn_round"
             android:text="@string/login"
             android:textColor="@color/white" />
 
@@ -71,17 +73,19 @@
 
         <Button
             android:id="@+id/btn_link_to_register"
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dip"
             android:layout_marginTop="30dip"
-            android:background="@color/bg_login"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_round"
             android:gravity="center"
+            android:paddingHorizontal="10dp"
             android:text="@string/new_register_here"
             android:textColor="@color/btn_login_bg"
             android:textSize="15sp"
             android:textStyle="normal"
-            tools:textColor="@color/bg_register" />
+            tools:textColor="@color/white" />
 
     </LinearLayout>
 
