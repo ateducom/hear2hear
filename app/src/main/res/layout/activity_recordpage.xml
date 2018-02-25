@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.afraaaldhaheri.ateducom.recordpage">
+
+
+    <TextView
+        android:id="@+id/sp2txt"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp" />
+
+
+    <ImageView
+        android:id="@+id/btnSpeak"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/mic"
+        android:gravity="center"
+        android:onClick="getSpeechInput"
+        android:src="@drawable/micme" />
+
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_toStartOf="@+id/btnSpeak"
+        android:background="@drawable/camera"
+        android:contentDescription="@string/mic"
+        android:gravity="center"
+        android:onClick="getSpeechInput" />
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
